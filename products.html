@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/825674151f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <img src="images/avatar.jpg" alt="avatar" class="avatar">
+
+        <ul class="nav">
+            <li class="nav-item">
+                <a href="index.html">
+                    <i class="fa-solid fa-house"></i>
+                    Dashboard
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="active">
+                    <i class="fa-solid fa-book-open"></i>
+                    Products
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="order.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Order
+                </a>
+            </li>
+        </ul>
+
+        <a id="logout" href="login.html">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            Logout
+        </a>
+    </div>
+
+    <div class="content">
+
+        <div class="item-nav">
+            <ul>
+                <li><a>Romance</a></li>
+                <li><a>Comedy</a></li>
+                <li><a>Action</a></li>
+            </ul>
+        </div>
+
+        <h2 class="genre-title">Romance</h2>
+        <div class="item-container" id="romance">
+        </div>
+
+        <h2 class="genre-title">Comedy</h2>
+        <div class="item-container" id="comedy">
+        </div>
+
+        <h2 class="genre-title">Action</h2>
+        <div class="item-container" id="action">
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="product_script.js"></script>
+</body>
+
+</html>
