@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -65,7 +66,9 @@ body {
 }
 
 .genre-title {
-  padding: 0 20px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  padding-left: 20px;
 }
 
 .item {
@@ -113,8 +116,10 @@ body {
   justify-content: flex-end;
   background-color: rgba(255, 255, 255, 0.37);
   backdrop-filter: blur(2px);
-  position: sticky;
+  position: fixed;
   top: 0;
+  right: 0;
+  width: 75%;
   z-index: 1;
 }
 
@@ -129,6 +134,8 @@ body {
   padding: 15px 30px;
   font-weight: bold;
   transition: color 0.2s ease-in-out;
+  text-decoration: none;
+  color: #1e1e1e;
 }
 
 .item-nav ul li a::before {
