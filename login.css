@@ -14,39 +14,11 @@ body {
   color: #f1f1f1;
 }
 
-.parent {
-  position: relative;
-  height: 70vh;
-  width: 70vw;
-}
-
-.parent img {
-  width: 100%;
-  height: auto;
-}
-
 .login-container {
-  position: absolute;
-  top: 0;
-  left: 0;
   background-color: #2c2c2c;
-  /* padding: 30px; */
-  border-radius: 8px;
-  width: 0;
-  transition: width 0.5s ease;
-  overflow: hidden;
-}
-
-.parent:hover .login-container {
-  width: 300px;
   padding: 30px;
-}
-
-.mask1 {
-  -webkit-mask-image: url(images/mask.png);
-  mask-image: url(images/mask.png);
-  mask-repeat: no-repeat;
-  display: inline-block;
+  border-radius: 8px;
+  width: 300px;
 }
 
 .login-container h2 {
