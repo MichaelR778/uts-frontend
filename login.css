@@ -20,6 +20,11 @@ body {
   width: 70vw;
 }
 
+.parent img {
+  width: 100%;
+  height: auto;
+}
+
 .login-container {
   position: absolute;
   top: 0;
