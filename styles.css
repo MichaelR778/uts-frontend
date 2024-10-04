@@ -164,8 +164,6 @@ body {
   -webkit-mask-image: url(images/mask.png);
   mask-image: url(images/mask.png);
   mask-repeat: no-repeat;
-  border: 2px solid red; /* Temporary for debugging */
-  background-color: lightgray; /* Temporary for debugging */
   display: inline-block;
 }
 
