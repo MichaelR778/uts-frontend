@@ -166,14 +166,14 @@ body {
   mask-repeat: no-repeat;
   mask-size: cover;
   overflow: hidden;
-  width: 200px;
-  height: auto;
+  width: auto;
+  height: 200px;
   display: block;
 }
 
 .mask1 img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 
 /* for dashboard */
