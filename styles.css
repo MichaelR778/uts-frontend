@@ -164,7 +164,9 @@ body {
   -webkit-mask-image: url(images/mask.png);
   mask-image: url(images/mask.png);
   mask-repeat: no-repeat;
-  display: inline-block;
+  /* display: inline-block; */
+  width: 200px;
+  height: auto;
 }
 
 /* for dashboard */
