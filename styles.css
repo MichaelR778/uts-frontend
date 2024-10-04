@@ -10,12 +10,14 @@ body {
   /* background-color: rgb(218, 218, 218); */
 }
 
+/* avatar img  */
 .avatar {
   border-radius: 50%;
   width: 150px;
   margin: 10%;
 }
 
+/* left side navbar */
 .navbar {
   display: flex;
   flex-direction: column;
@@ -60,17 +62,21 @@ body {
   color: grey;
 }
 
+/* content on the right of navbar */
 .content {
   margin-left: 25%;
   width: 75%;
+  min-height: 100vh;
 }
 
+/* genre section title */
 .genre-title {
   padding-top: 50px;
   padding-bottom: 10px;
   padding-left: 20px;
 }
 
+/* product item card */
 .item {
   /* margin: 10px; */
   margin-left: 20px;
@@ -99,18 +105,13 @@ body {
   text-overflow: ellipsis;
 }
 
+/* container for item */
 .item-container {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* .card {
-  background-color: white;
-  margin: 20px;
-  padding: 20px;
-  border-radius: 20px;
-} */
-
+/* genre nav */
 .item-nav {
   display: flex;
   justify-content: flex-end;
@@ -158,6 +159,7 @@ body {
   color: white;
 }
 
+/* mask, masih nyoba2 */
 .mask1 {
   -webkit-mask-image: url(images/mask.png);
   mask-image: url(images/mask.png);
@@ -165,4 +167,61 @@ body {
   border: 2px solid red; /* Temporary for debugging */
   background-color: lightgray; /* Temporary for debugging */
   display: inline-block;
+}
+
+/* for dashboard */
+/* .container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+} */
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  flex: 1;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.expand-card {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.icon {
+  width: 70px;
+  height: auto;
+}
+
+.plus {
+  color: rgb(74, 207, 74);
+}
+
+span.number {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.line-chart {
+  width: 600px;
+  height: auto;
+}
+
+.brand-logo {
+  width: 200px;
+  height: auto;
+}
+
+#banner {
+  background-color: black;
 }
