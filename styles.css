@@ -164,8 +164,15 @@ body {
   -webkit-mask-image: url(images/mask.png);
   mask-image: url(images/mask.png);
   mask-repeat: no-repeat;
-  /* display: inline-block; */
+  mask-size: cover;
+  overflow: hidden;
   width: 200px;
+  height: auto;
+  display: block;
+}
+
+.mask1 img {
+  width: 100%;
   height: auto;
 }
 
