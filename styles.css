@@ -203,6 +203,7 @@ body {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 
 .icon {
@@ -220,7 +221,7 @@ span.number {
 }
 
 .line-chart {
-  width: 600px;
+  width: 550px;
   height: auto;
 }
 
@@ -231,4 +232,28 @@ span.number {
 
 #banner {
   background-color: black;
+}
+
+.item-tile {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+}
+
+.item-tile img {
+  height: 40px;
+  width: auto;
+  padding-right: 10px;
+}
+
+.item-tile p {
+  width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#today-earning {
+  text-align: center;
 }
