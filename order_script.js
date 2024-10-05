@@ -37,3 +37,7 @@ $(".counter .increase").click(function () {
   total += 10;
   $(".total").text(`${total}$`);
 });
+
+$(".checkout").click(function () {
+  alert("Printing bill...");
+});

@@ -334,12 +334,17 @@ td button {
   border-radius: 4px;
 }
 
-.order-detail button {
+.order-detail a.apply {
+  text-decoration: none;
   padding: 10px;
-  border: 1px solid rgb(37, 37, 37);
   border-radius: 5px;
-  background-color: rgb(255, 255, 255);
-  cursor: pointer;
+  background-color: rgb(56, 56, 56);
+  color: white;
+  font-size: 12px;
+}
+
+.order-detail a:hover {
+  background-color: black;
 }
 
 .order-detail .checkout {
@@ -349,7 +354,7 @@ td button {
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
-  background-color: black;
+  background-color: rgb(56, 56, 56);
   color: white;
   width: 100%;
 }
@@ -366,4 +371,27 @@ td button {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+}
+
+.order-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 20px;
+  padding-bottom: 10px;
+  width: 45vw;
+  border-bottom: 1px solid grey;
+}
+
+.order-banner a {
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(56, 56, 56);
+  color: white;
+}
+
+.order-banner a:hover {
+  background-color: black;
 }
