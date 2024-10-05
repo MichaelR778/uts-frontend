@@ -44,10 +44,106 @@
 
     <div class="content">
 
-        <p>Order</p>
+        <table>
+            <tr>
+                <th>Product</th>
+                <th></th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td><img src="https://cdn.myanimelist.net/r/334x484/images/manga/2/248748.webp?s=468d1a427a14bcb9d219e958b48a595d"
+                        alt=""></td>
+                <td>Ao no Hako</td>
+                <td class="counter">
+                    <button class="decrease">-</button>
+                    <span>0</span>
+                    <button class="increase">+</button>
+                </td>
+                <td>10$</td>
+                <td>0$</td>
+            </tr>
+            <tr>
+                <td><img src="https://cdn.myanimelist.net/r/334x484/images/manga/3/219741.webp?s=6b2efbdb0544ae26a9d43d5601863090"
+                        alt=""></td>
+                <td>Spy x Family</td>
+                <td class="counter">
+                    <button class="decrease">-</button>
+                    <span>0</span>
+                    <button class="increase">+</button>
+                </td>
+                <td>10$</td>
+                <td>0$</td>
+            </tr>
+            <tr>
+                <td><img src="https://cdn.myanimelist.net/r/334x484/images/manga/5/256607.webp?s=78400a6da03f10bc498ed150b6392379"
+                        alt=""></td>
+                <td>Kaoru Hana wa Rin to Saku</td>
+                <td class="counter">
+                    <button class="decrease">-</button>
+                    <span>0</span>
+                    <button class="increase">+</button>
+                </td>
+                <td>10$</td>
+                <td>0$</td>
+            </tr>
+            <tr>
+                <td><img src="https://cdn.myanimelist.net/r/334x484/images/manga/3/216464.webp?s=abbbeacac7f765052ebf5d03f869cf0b"
+                        alt=""></td>
+                <td>Chainsaw Man</td>
+                <td class="counter">
+                    <button class="decrease">-</button>
+                    <span>0</span>
+                    <button class="increase">+</button>
+                </td>
+                <td>10$</td>
+                <td>0$</td>
+            </tr>
+        </table>
+
+        <div class="order-detail">
+            <div class="column">
+                <div>
+                    <h2>Order Details</h2>
+                    <hr>
+                    <div class="row">
+                        <span>Total items:</span>
+                        <span class="count">0</span>
+                    </div>
+                    <div class="row">
+                        <span>Total price:</span>
+                        <span class="total">0$</span>
+                    </div>
+                    <br>
+                    <form action="index.html">
+                        <div class="input-group">
+                            <label for="address">ADDRESS</label>
+                            <input type="text" id="address" name="address">
+                        </div>
+                        <div class="input-group">
+                            <label for="promo-code">PROMO CODE</label>
+                            <input type="text" id="promo-code" name="promo-code">
+                        </div>
+                    </form>
+                    <button>Apply</button>
+                </div>
+
+                <div>
+                    <hr>
+                    <div class="row">
+                        <span>TOTAL</span>
+                        <span class="total">0$</span>
+                    </div>
+                    <a href="order.html" class="checkout">PRINT BILL</a href="order.html">
+                </div>
+            </div>
+        </div>
 
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="order_script.js"></script>
 </body>
 
 </html>

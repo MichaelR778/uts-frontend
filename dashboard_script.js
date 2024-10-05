@@ -12,8 +12,8 @@ const products = [
     title: "Chainsaw Man",
   },
   {
-    img: "https://cdn.myanimelist.net/images/anime/12/76049.webp",
-    title: "One Punch Man",
+    img: "https://cdn.myanimelist.net/r/334x484/images/manga/3/219741.webp?s=6b2efbdb0544ae26a9d43d5601863090",
+    title: "Spy x Family",
   },
   {
     img: "https://cdn.myanimelist.net/images/anime/1286/99889.webp",
