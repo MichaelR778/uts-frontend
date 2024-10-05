@@ -38,6 +38,10 @@ $(".counter .increase").click(function () {
   $(".total").text(`${total}$`);
 });
 
+$(".apply").click(function () {
+  alert("Invalid promo code");
+});
+
 $(".checkout").click(function () {
   alert("Printing bill...");
 });
