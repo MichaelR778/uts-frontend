@@ -7,7 +7,6 @@
 
 body {
   font-family: Arial, sans-serif;
-  /* background-color: rgb(218, 218, 218); */
 }
 
 /* avatar img  */
@@ -78,12 +77,10 @@ body {
 
 /* product item card */
 .item {
-  /* margin: 10px; */
   margin-left: 20px;
   margin-bottom: 20px;
   padding: 10px;
   width: 150px;
-  /* border: 1px solid grey; */
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   cursor: pointer;
@@ -159,7 +156,7 @@ body {
   color: white;
 }
 
-/* mask, masih nyoba2 */
+/* mask */
 .mask1 {
   -webkit-mask-image: url(images/mask.png);
   mask-image: url(images/mask.png);
@@ -177,11 +174,6 @@ body {
 }
 
 /* for dashboard */
-/* .container {
-  display: flex;
-  flex-direction: row;
-  height: 100%;
-} */
 
 .row {
   display: flex;
@@ -258,30 +250,6 @@ span.number {
   text-align: center;
 }
 
-/* .item-list {
-  width: 50vw;
-  background-color: pink;
-}
-
-.orderitem-tile {
-  display: flex;
-  flex-direction: row;
-  padding: 10px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.orderitem-tile img {
-  height: 40px;
-  width: auto;
-  padding-right: 10px;
-}
-
-.orderitem-tile button {
-  width: 20px;
-  height: 20px;
-} */
-
 table {
   width: 40vw;
   margin: 20px;
@@ -294,7 +262,6 @@ tr img {
 
 th,
 td {
-  /* border: 1px solid #dddddd; */
   text-align: left;
   padding: 10px;
 }
